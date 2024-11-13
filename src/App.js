@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
 
+import { useEffect } from 'react';
+import './App.css';
+import  './AppStore.css';
+import { Appstore } from './componentes/Appstore';
+import { Cubes } from './componentes/Cubes';
+import { Playstore } from './componentes/Playstore';
 function App() {
+
+  const url = "recsam://recsam.com/createSubscriptionSuccess";
+
+  function openLink() {
+    window.open(url);
+  }
+
+  useEffect(() => {
+    console.log(window.location.href);
+  },[])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <div className='TitleContainer'><p className='Title'> RECSAM</p></div>
+      <div style={{minHeight: "40vh", minWidth: "100vw"}}>
+      </div>
+      <Cubes></Cubes>
+      <div className='TextContainer'><p className='Text'> Descarga la aplicación de RECSAM</p></div>
+      <div className='AppContainer'>
+
+        <Playstore></Playstore>
+        <Appstore></Appstore>
+      </div>
+      <div className='linkContainer'><p className='linkText'>Si ya tienes la app y no se te ha redirigido haz click <a onClick={openLink} className='link'>aqui</a></p></div>
     </div>
   );
 }
