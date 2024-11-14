@@ -7,14 +7,44 @@ import { Cubes } from './componentes/Cubes';
 import { Playstore } from './componentes/Playstore';
 function App() {
 
-  const url = "recsam://recsam.com/createSubscriptionSuccess";
+  const urlSuccess = "recsam://recsam.com/createSubscriptionSuccess";
+  const urlCancel = "recsam://recsam.com/createSubscriptionCancel";
+  const urlEdit = "recsam://recsam.com/editProfile";
+  const other = "recsam://recsam.com/login";
 
-  function openLink() {
-    window.open(url);
+  
+  function openLinkEffect() {
+    if(window.location.href === "https://recsamdeveloper.github.io/recsam/#Success"){
+      window.open(urlSuccess);
+    }
+
+    if(window.location.href === "https://recsamdeveloper.github.io/recsam/#Cancel"){
+      window.open(urlCancel);
+    }
+
+    if(window.location.href === "https://recsamdeveloper.github.io/recsam/#Edit"){
+      window.open(urlEdit);
+    }
+  }
+
+  function openLinkClick() {
+    if(window.location.href === "https://recsamdeveloper.github.io/recsam/#Success"){
+      window.open(urlSuccess);
+    }
+
+    if(window.location.href === "https://recsamdeveloper.github.io/recsam/#Cancel"){
+      window.open(urlCancel);
+    }
+
+    if(window.location.href === "https://recsamdeveloper.github.io/recsam/#Edit"){
+      window.open(urlEdit);
+    }
+
+    window.open(other);
   }
 
   useEffect(() => {
-    console.log(window.location.href);
+    openLink();
   },[])
 
   return (
@@ -29,7 +59,7 @@ function App() {
         <Playstore></Playstore>
         <Appstore></Appstore>
       </div>
-      <div className='linkContainer'><p className='linkText'>Si ya tienes la app y no se te ha redirigido haz click <a onClick={openLink} className='link'>aqui</a></p></div>
+      <div className='linkContainer'><p className='linkText'>Si ya tienes la app y no se te ha redirigido haz click <a onClick={openLinkClick} className='link'>aqui</a></p></div>
     </div>
   );
 }
