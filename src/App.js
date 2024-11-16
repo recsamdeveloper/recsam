@@ -15,32 +15,32 @@ function App() {
   
   function openLinkEffect() {
     if(window.location.href === "https://recsamdeveloper.github.io/recsam/#Success"){
-      window.location.replace(urlSuccess);
+      window.location.href = urlSuccess;
     }
 
     if(window.location.href === "https://recsamdeveloper.github.io/recsam/#Cancel"){
-      window.location.replace(urlCancel);
+      window.location.href = urlCancel;
     }
 
     if(window.location.href === "https://recsamdeveloper.github.io/recsam/#Edit"){
-      window.location.replace(urlEdit);
+      window.location.href = urlEdit;
     }
   }
 
   function openLinkClick() {
     if(window.location.href === "https://recsamdeveloper.github.io/recsam/#Success"){
-      window.location.replace(urlSuccess);
+      window.location.href = urlSuccess;
     }
 
     if(window.location.href === "https://recsamdeveloper.github.io/recsam/#Cancel"){
-      window.location.replace(urlCancel);
+      window.location.href = urlCancel;
     }
 
     if(window.location.href === "https://recsamdeveloper.github.io/recsam/#Edit"){
-      window.location.replace(urlEdit);
+      window.location.href = urlEdit;
     }
 
-    window.location.replace(other);
+    window.location.href = other;
   }
 
   useEffect(() => {
