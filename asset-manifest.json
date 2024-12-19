@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/recsam/static/css/main.6016c074.css",
-    "main.js": "/recsam/static/js/main.c5105394.js",
+    "main.css": "/recsam/static/css/main.3a7c692d.css",
+    "main.js": "/recsam/static/js/main.9527640f.js",
     "static/js/453.6b7d8858.chunk.js": "/recsam/static/js/453.6b7d8858.chunk.js",
     "index.html": "/recsam/index.html",
-    "main.6016c074.css.map": "/recsam/static/css/main.6016c074.css.map",
-    "main.c5105394.js.map": "/recsam/static/js/main.c5105394.js.map",
+    "main.3a7c692d.css.map": "/recsam/static/css/main.3a7c692d.css.map",
+    "main.9527640f.js.map": "/recsam/static/js/main.9527640f.js.map",
     "453.6b7d8858.chunk.js.map": "/recsam/static/js/453.6b7d8858.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6016c074.css",
-    "static/js/main.c5105394.js"
+    "static/css/main.3a7c692d.css",
+    "static/js/main.9527640f.js"
   ]
 }
