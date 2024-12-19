@@ -68,3 +68,19 @@ background-size: 11px 11px;
   width: 100%;
   top: 80%
 }
+
+.ButtonStyle{
+  background: #202020;
+  border: 1px solid #e8e8e8;
+  border-radius: .5em;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #fff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  max-width: 90%;
+  padding: .7em 1.7em;
+  transition: all .3s;
+}
+.TextButton{
+  color: white;
+}
