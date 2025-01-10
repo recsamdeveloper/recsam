@@ -8,25 +8,32 @@ import { Playstore } from './componentes/Playstore';
 function App() {
 
   const urlSuccess = "recsam://recsam.com/createSubscriptionSuccess";
-  const urlCancel = "recsam://recsam.com/createSubscriptionCancel";
+  const urlSubCancel = "recsam://recsam.com/createSubscriptionCancel";
+
   const urlEdit = "recsam://recsam.com/editProfile";
+  const urlEditCancel = "recsam://recsam.com/editSubscriptionCancel"
   const other = "recsam://recsam.com/login";
 
   let destination = other;
 
-  if(window.location.href === "https://recsamdeveloper.github.io/recsam/#Success"){
+  if(window.location.href === "https://recsamdeveloper.github.io/recsam/#SuccessNewUser"){
     destination = urlSuccess
   }
-
-  if(window.location.href === "https://recsamdeveloper.github.io/recsam/#Cancel"){
-    destination = urlCancel
+  if(window.location.href === "https://recsamdeveloper.github.io/recsam/#CancelNewUser"){
+    destination = urlSubCancel
+  }
+  if(window.location.href === "https://recsamdeveloper.github.io/recsam/#SuccessEdit"){
+    destination = urlEdit
+  }
+  if(window.location.href === "https://recsamdeveloper.github.io/recsam/#CancelEdit"){
+    destination = urlEditCancel
   }
 
   if(window.location.href === "https://recsamdeveloper.github.io/recsam/#Edit"){
     destination = urlEdit
   }
 
-  
+
 
   return (
     <div className='App'>
