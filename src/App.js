@@ -39,7 +39,7 @@ function App() {
   return (
     <div className='App'>
       <div className='TitleContainer'><p className='Title'> RECSAM</p></div>
-      <img src={recsam} style={{width: "100px"}}></img>
+      <img src={recsam} style={{width: "140px"}}></img>
  
       <div className='ButtonStyle' onClick={() => window.open(destination)} ><p className='TextButton'>  Haz click aquí para regresar a la app →</p></div>
 
