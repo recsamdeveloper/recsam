@@ -2,9 +2,9 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #000;
+    border: 2px solid #5c150b;
     border-radius: 9999px;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: #5c150b;
     padding: 0.625rem 1.5rem;
     text-align: center;
     color: rgba(255, 255, 255, 1);

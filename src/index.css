@@ -14,7 +14,7 @@ code {
 
 .cubes {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform-style: preserve-3d;
 }

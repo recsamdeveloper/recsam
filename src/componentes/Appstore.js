@@ -26,7 +26,7 @@ export const Appstore = () => {
                 </svg>
             </span>
             <span class="texts">
-                <span class="text-1">Download form</span>
+                <span class="text-1">Descargalo en</span>
                 <span class="text-2">App store</span>
             </span>
             </a>

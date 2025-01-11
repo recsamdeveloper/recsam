@@ -5,6 +5,7 @@ import  './AppStore.css';
 import { Appstore } from './componentes/Appstore';
 import { Cubes } from './componentes/Cubes';
 import { Playstore } from './componentes/Playstore';
+import recsam from "./RECSAM_NEGRO.png"
 function App() {
 
   const urlSuccess = "recsam://recsam.com/createSubscriptionSuccess";
@@ -38,15 +39,19 @@ function App() {
   return (
     <div className='App'>
       <div className='TitleContainer'><p className='Title'> RECSAM</p></div>
-      <div style={{minHeight: "40vh", minWidth: "100vw"}}>
-      </div>
-      <Cubes></Cubes>
+      <img src={recsam} style={{width: "100px"}}></img>
+ 
       <div className='ButtonStyle' onClick={() => window.open(destination)} ><p className='TextButton'>  Haz click aquí para regresar a la app →</p></div>
-      <div className='TextContainer'><p className='Text'> Descarga la aplicación de RECSAM</p></div>
-      <div className='AppContainer'>
 
-        <Playstore></Playstore>
-        <Appstore></Appstore>
+      <div style={{display: "flex", flexFlow: "column"}}>
+
+      
+        <div className='TextContainer'><p className='Text'> Descarga la aplicación de RECSAM</p></div>
+        <div className='AppContainer'>
+          
+          <Playstore></Playstore>
+          <Appstore></Appstore>
+        </div>
       </div>
     </div>
   );
