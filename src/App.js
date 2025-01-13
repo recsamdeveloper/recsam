@@ -21,13 +21,13 @@ function App() {
     destination = urlSuccess
   }
   if(window.location.href === "https://recsamdeveloper.github.io/recsam/#CancelNewUser"){
-    destination = urlSubCancel
+    destination = urlEditCancel
   }
   if(window.location.href === "https://recsamdeveloper.github.io/recsam/#SuccessEdit"){
     destination = urlEdit
   }
   if(window.location.href === "https://recsamdeveloper.github.io/recsam/#CancelEdit"){
-    destination = urlEditCancel
+    destination = urlSubCancel
   }
 
   if(window.location.href === "https://recsamdeveloper.github.io/recsam/#Edit"){
