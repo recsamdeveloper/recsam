@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/recsam/static/css/main.3a7c692d.css",
-    "main.js": "/recsam/static/js/main.9527640f.js",
-    "static/js/453.6b7d8858.chunk.js": "/recsam/static/js/453.6b7d8858.chunk.js",
+    "main.css": "/recsam/static/css/main.7e50a0e1.css",
+    "main.js": "/recsam/static/js/main.c73d3b43.js",
+    "static/media/RECSAM_NEGRO.png": "/recsam/static/media/RECSAM_NEGRO.b3955270771ae6cfc720.png",
     "index.html": "/recsam/index.html",
-    "main.3a7c692d.css.map": "/recsam/static/css/main.3a7c692d.css.map",
-    "main.9527640f.js.map": "/recsam/static/js/main.9527640f.js.map",
-    "453.6b7d8858.chunk.js.map": "/recsam/static/js/453.6b7d8858.chunk.js.map"
+    "main.7e50a0e1.css.map": "/recsam/static/css/main.7e50a0e1.css.map",
+    "main.c73d3b43.js.map": "/recsam/static/js/main.c73d3b43.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a7c692d.css",
-    "static/js/main.9527640f.js"
+    "static/css/main.7e50a0e1.css",
+    "static/js/main.c73d3b43.js"
   ]
 }
