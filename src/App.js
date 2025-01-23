@@ -11,7 +11,7 @@ function App() {
   const urlSuccess = "recsam://recsam.com/createSubscriptionSuccess";
   const urlSubCancel = "recsam://recsam.com/createSubscriptionCancel";
 
-  const urlEdit = "recsam://recsam.com/editProfile";
+  const urlEdit = "recsam://recsam.com/homepage";
   const urlEditCancel = "recsam://recsam.com/editSubscriptionCancel"
   const other = "recsam://recsam.com/login";
 
