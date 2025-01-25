@@ -24,7 +24,7 @@ function App() {
     destination = urlEditCancel
   }
   if(window.location.href === "https://recsamdeveloper.github.io/recsam/#SuccessEdit"){
-    destination = urlEdit
+    destination = urlSuccess
   }
   if(window.location.href === "https://recsamdeveloper.github.io/recsam/#CancelEdit"){
     destination = urlSubCancel
